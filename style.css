@@ -4,4 +4,50 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.service {
+  width: 1000px;
+  height: 1000px;
+  margin-top: 30px;
+}
+
+.service__item {
+  background-color: antiquewhite;
+  width: 300px;
+  height: 300px;
+  padding: 10px 30px;
+  float: left;
+  margin: 10px;
+}
+
+.service__title {
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.service__description {
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: justify;
+  font-weight: normal;
+}
+
+.service__button {
+  background-color: deeppink;
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+
+.service__button:hover {
+  background-color: orangered;
+}
 /*# sourceMappingURL=style.css.map */
